@@ -1,0 +1,22 @@
+GameProject {
+ ID "AfricanRebelsFix"
+ GUID "6251428A5A971CA4"
+ TITLE "ATM African Rebels Fix"
+ Dependencies {
+  "605EAA5B7D039B75" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

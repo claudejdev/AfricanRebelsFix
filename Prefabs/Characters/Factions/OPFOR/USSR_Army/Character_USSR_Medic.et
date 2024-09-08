@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_BaseLoadout.et" {
+ ID "51FAD317FC20EC1B"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{67DE5BA96E6F0960}Prefabs/Characters/Uniforms/Shirt2_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{5590D9E77F3FD7BD}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jeans_3.et"
+    }
+   }
+  }
+ }
+}
